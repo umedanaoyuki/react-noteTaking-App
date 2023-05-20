@@ -13,9 +13,9 @@ const Sidebar = () => {
                 <div className="sidebar-note-title">
                     <strong>タイトル</strong>
                     <button>削除</button>
-                </div>
-                <p>ノートの内容です</p>
-                <small>最後の修正日：xx/xxx</small>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
             </div>
         </div>
     </div>
