@@ -11,12 +11,76 @@ const Sidebar = () => {
         <div className="app-sidebar-notes">
             <div className="app-sidebar-note">
                 <div className="sidebar-note-title">
-                    <strong>タイトル</strong>
+                    <strong>タイトル0</strong>
                     <button>削除</button>
                 </div>    
             <p>ノートの内容です</p>
             <small>最後の修正日：xx/xxx</small>
             </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル1</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル2</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル3</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル4</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル5</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル6</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
+            <div className="app-sidebar-note">
+                <div className="sidebar-note-title">
+                    <strong>タイトル7</strong>
+                    <button>削除</button>
+                </div>    
+            <p>ノートの内容です</p>
+            <small>最後の修正日：xx/xxx</small>
+            </div>
+
         </div>
     </div>
   );

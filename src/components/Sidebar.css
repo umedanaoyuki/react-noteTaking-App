@@ -30,7 +30,7 @@ small {
 
 .app-sidebar-notes {
     height: calc(100vh - 78px);
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 
 .app-sidebar-note {
