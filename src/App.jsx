@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar'
 function App() {
 
   //配列を用意してこの配列のノートを追加していく
+  //notesが複数のノートの情報を持っている。それをProｐsで渡す
   const [notes, setNotes] = useState([]);
 
   const onAddNote = () => {
@@ -23,7 +24,7 @@ function App() {
   }
 
   return <div className="App">
-    <Sidebar onAddNote={onAddNote}/>
+    <Sidebar onAddNote={onAddNote} notes={notes}/>
     <Main />
   </div>
 }
