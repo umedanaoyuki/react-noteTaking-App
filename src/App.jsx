@@ -16,7 +16,9 @@ function App() {
       content: "新しいノートの内容",
       modDate: Date.now()
     };
-    setNotes(newNote);
+    //スプレッド構文
+    //...以前のノート　それにnewNoteを追加していく
+    setNotes([...notes, newNote]);
     console.log(notes);
   }
 
