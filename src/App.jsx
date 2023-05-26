@@ -4,9 +4,13 @@ import Sidebar from './components/Sidebar'
 
 function App() {
 
+  const onAddNote = () => {
+    console.log("新しくノートが追加されました");
+  }
+
   return <div className="App">
-    <Sidebar></Sidebar>
-    <Main></Main>
+    <Sidebar onAddNote={onAddNote}/>
+    <Main />
   </div>
 }
 
