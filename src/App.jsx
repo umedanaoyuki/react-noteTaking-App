@@ -24,7 +24,7 @@ function App() {
     console.log(notes);
   }
 
-  const onDeleteNote = (note) => {
+  const onDeleteNote = (id) => {
     //trueになったものを残すのがfilter関数
     const filterNotes = notes.filter((note) => note.id !== id);
     setNotes(filterNotes);
