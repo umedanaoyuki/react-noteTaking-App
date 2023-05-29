@@ -9,6 +9,7 @@ function App() {
   //配列を用意してこの配列のノートを追加していく
   //notesが複数のノートの情報を持っている。それをProｐsで渡す
   const [notes, setNotes] = useState([]);
+  cost [activeNote, setActiveNote] = useState(false);
 
   const onAddNote = () => {
     console.log("新しくノートが追加されました");
