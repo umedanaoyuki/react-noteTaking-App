@@ -51,6 +51,11 @@ small {
     background-color: #f1f0f0;
 }
 
+ 
+.app-sidebar-notes.active {
+    background-color: #f49237;
+} 
+
 small {
     color: #999;
 }
